@@ -11,7 +11,7 @@ app=Flask(__name__)
 
 
 
-api_key="AIzaSyDg9wGOexphTK8JbhbufWZ6idMuZdkZi8M"
+api_key="hamzanufc10"
 llm = GoogleGenerativeAI(model="models/text-bison-001", google_api_key=api_key, temperature=0.1)
 
 
